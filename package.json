@@ -1,0 +1,33 @@
+{
+  "name": "mongo-fantasy",
+  "version": "1.0.0",
+  "description": "Functional wrapper around the mongodb driver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flogistix/mongo-fantasy.git"
+  },
+  "keywords": [
+    "fantasyland",
+    "functional",
+    "mongo"
+  ],
+  "author": "Trevor Basinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Flogistix/mongo-fantasy/issues"
+  },
+  "homepage": "https://github.com/Flogistix/mongo-fantasy#readme",
+  "dependencies": {
+    "data.maybe": "^1.2.1",
+    "data.task": "^3.0.0",
+    "fantasy-io": "0.0.1",
+    "fantasy-states": "^0.2.1",
+    "fantasy-tuples": "0.0.1",
+    "mongodb": "^2.0.43",
+    "ramda": "^0.17.1"
+  }
+}
